@@ -12,13 +12,6 @@ html {
   box-sizing: border-box;
   font-family: "proxima-nova",sans-serif;
   background-color: white;
-  background-image: url("../images/bg.jpg");
-  background-repeat: no-repeat;
-  background-color: black;
-  height: 200vh;
-  width: 100vw;
-  background-size: cover;
-  position: relative;
 }
 
 
@@ -36,8 +29,8 @@ html {
 }
 
 .i-banner {
-  width: 30%;
-  height: 5%;
+  width: 80%;
+  height: 10%;
 }
 
 .icon-foot {
