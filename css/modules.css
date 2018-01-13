@@ -702,34 +702,33 @@ button[disabled] {
 }
 
 .btn-light, .btn--light {
-  background-color: #e2e2e2;
   border-color: #e2e2e2;
   color: #000;
+  text-decoration: none;
 }
 
 .btn-light:focus,
 .btn-light:hover,
 .btn--light:focus,
 .btn--light:hover {
-  background-color: #666;
-  border-color: #666;
-  color: #fff;
+  border-color: #ED1C24;
+  color: #ED1C24;
 }
 
 .btn-ghost,
 .btn--ghost {
   background-color: transparent;
-  border-color: #333;
-  color: #000;
+  border-color: #ED1C24;
+  color: #ED1C24;
 }
 
 .btn-ghost:focus,
 .btn-ghost:hover,
 .btn--ghost:focus,
 .btn--ghost:hover {
-  background-color: #e2e2e2;
-  border-color: #000;
-  color: #000;
+  background-color: #ED1C24;
+  border-color: #ED1C24;
+  color: white;
 }
 
 .btn-link {

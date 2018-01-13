@@ -12,9 +12,43 @@ html {
   box-sizing: border-box;
   font-family: "proxima-nova",sans-serif;
   background-color: white;
+  background-image: url("../images/BG.jpg");
+  background-repeat: no-repeat;
+  background-color: black;
+  height: 100vh;
+  width: 100vw;
+  background-size: cover;
+  position: relative;
 }
 
+
 .i-home {
-  width: 120px;
-  height: 120px;
+  width: 150px;
+  height: 37px;
+}
+
+.contact-1{
+  background-color: #1A1A1A;
+}
+
+.foot {
+  color: white;
+}
+
+.i-banner {
+  width: 50%;
+  height: 20%;
+}
+
+.icon-foot {
+  width: 64px;
+  height: 64px;
+}
+
+.red {
+  color: #ED1C24;
+}
+
+.white {
+  background-color: white;
 }
