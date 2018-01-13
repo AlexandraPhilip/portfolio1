@@ -5,16 +5,20 @@
   <title>Alex Philip</title>
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <link href="{{site.baseurl}}/css/site.css" rel="stylesheet">
-
+  <link rel="stylesheet" href="https://use.typekit.net/thj0lkn.css">
 </head>
 <body>
   <div class="grid main-nav push-0 top-grow">
     <div class="unit">
-      <a href="{{site.baseurl}}/"><h1 class="giga italic  island-1-2 push-0"><img src="../../images/wordmark1.svg" alt=""></a>
+      <a href="{{site.baseurl}}/">
+        <i class="contact-icon icon i-home">
+          <img class="contact-svg" src="images/wordmark1.svg">
+        </i>
+      </a>
     </div>
     <div class="unit absolute pin-tr fixed">
       <nav>
-        <ul class="list-group-inline push-0">
+        <ul class="list-group-inline push-0 pad-t-2">
           <li><a class="milli btn-ghost island-1-2" href="{{site.baseurl}}/pages//about-page/">About</a></li>
           <li><a class="milli btn-ghost island-1-2" href="{{site.baseurl}}/pages/work-page/">Work</a></li>
           <li><a class="milli btn-ghost island-1-2" href="#contact">Contact</a></li>
@@ -24,7 +28,18 @@
   </div>
 
   {{content}}
-  <footer class="contact main-nav relative bot-grow" id="contact">
+  <footer class="contact main-nav">
+    <div class="grid">
+      <div class="unit s-1-2 m-1-2 l-1-2">
+        <i class="contact-icon icon i-home">
+          <img class="contact-svg" src="images/beer.svg">
+        </i>
+      </div>
+      <div class="unit s-1-2 m-1-2 l-1-2">
+        <h4>Let’s make something cool!</h4>
+        <p>The first pint’s on me.</p>
+      </div>
+    </div>
     <div class="text-center">
       <nav>
         <ul class="list-group-inline push-0">
